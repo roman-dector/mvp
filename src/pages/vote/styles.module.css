@@ -1,0 +1,39 @@
+.root {
+  position: absolute;
+  inset: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+
+  gap: 20px;
+}
+
+.rating {
+  display: flex;
+  gap: 10px;
+}
+
+.circle {
+  aspect-ratio: 1;
+  width: 20px;
+  border-radius: 50%;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.circleChecked {
+  background-color: gray;
+}
+
+.poster {
+  width: 400px;
+  max-height: 300px;
+  object-fit: contain;
+}
